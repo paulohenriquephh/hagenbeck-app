@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  body {
+    margin: 0;
+    background: #fafafa;
+    color: #18181b;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+  }
+}
